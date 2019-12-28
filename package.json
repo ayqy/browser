@@ -1,6 +1,6 @@
 {
 	"name": "browser",
-	"displayName": "Browser - Embedded browser",
+	"displayName": "EmbeddedBrowser",
 	"description": "An embedded browser for your VS Code.",
 	"version": "1.0.0",
 	"homepage": "https://marketplace.visualstudio.com/items?itemName=ayqy.browser",
