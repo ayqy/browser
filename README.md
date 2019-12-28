@@ -1,65 +1,47 @@
-# browser README
+# Browser
 
-This is the README for your extension "browser". After writing up a brief description, we recommend including the following sections.
+An embedded browser for your VS Code.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Open a browser just inside your VS Code.
 
-For example if there is an image subfolder under your extension project workspace:
+Like this (Google searching on the other side):
 
-\!\[feature X\]\(images/feature-x.png\)
+![coding-with-searching](https://github.com/ayqy/browser/blob/master/snapshots/coding-with-searching.jpg)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Like this (Looking up API docs on the other side):
+
+![coding-with-API-docs](https://github.com/ayqy/browser/blob/master/snapshots/coding-with-API-docs.jpg)
+
+Or this (Previewing local web page on the the other side):
+
+![coding-with-preview](https://github.com/ayqy/browser/blob/master/snapshots/coding-with-preview.jpg)
+
+### Full Feature List
+
+- Open any HTTP/HTTPS URL inside your VS Code.
+
+- Navigation, forwarding, backwarding, refreshing are all available.
+
+- Record history locally, and autocomplete on typing address.
+
+- Restore opening Browser Panel after VS Code restart.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+No extra requirements, install and enjoy now.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+No extra settings, install and enjoy now.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Feel free to [file an issue](https://github.com/ayqy/browser/issues), and contributions are very welcome.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Initial release of Browser.
