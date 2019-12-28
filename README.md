@@ -2,6 +2,8 @@
 
 An embedded browser for your VS Code.
 
+Other languages: [中文](https://github.com/ayqy/browser/blob/master/README-zhCN.md)
+
 ## Features
 
 Open a browser just inside your VS Code.
