@@ -32,11 +32,11 @@ Or this (Previewing local web page on the the other side):
 
 ## Requirements
 
-No extra requirements, install and enjoy now.
+No extra requirements, [install and enjoy now](https://marketplace.visualstudio.com/items?itemName=ayqy.browser).
 
 ## Extension Settings
 
-No extra settings, install and enjoy now.
+No extra settings, [install and enjoy now](https://marketplace.visualstudio.com/items?itemName=ayqy.browser).
 
 ## Known Issues
 

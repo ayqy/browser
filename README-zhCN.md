@@ -30,11 +30,11 @@ VS Code 内嵌浏览器。
 
 ## 环境要求
 
-无额外要求，即装即用。
+无额外要求，[即装即用](https://marketplace.visualstudio.com/items?itemName=ayqy.browser)。
 
 ## Extension Settings
 
-无额外配置项，即装即用。
+无额外配置项，[即装即用](https://marketplace.visualstudio.com/items?itemName=ayqy.browser)。
 
 ## Known Issues
 

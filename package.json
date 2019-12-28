@@ -1,12 +1,25 @@
 {
 	"name": "browser",
-	"displayName": "browser",
+	"displayName": "Browser - Embedded browser",
 	"description": "An embedded browser for your VS Code.",
 	"version": "0.0.1",
+	"homepage": "https://marketplace.visualstudio.com/items?itemName=ayqy.browser",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ayqy/browser.git"
+	},
 	"publisher": "ayqy",
+	"author": "ayqy",
 	"engines": {
 		"vscode": "^1.40.0"
 	},
+	"keywords": [
+		"Embedded browser",
+		"Open browser",
+		"Open URL",
+		"Open Web Page",
+		"Preview HTML"
+	],
 	"categories": [
 		"Other"
 	],
@@ -14,6 +27,7 @@
 		"onCommand:browser.open",
 		"onWebviewPanel:browser.webview"
 	],
+	"icon": "icon.png",
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
