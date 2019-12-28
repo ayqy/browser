@@ -1,4 +1,4 @@
-# Browser
+# EmbeddedBrowser
 
 VS Code 内嵌浏览器。
 
@@ -28,21 +28,21 @@ VS Code 内嵌浏览器。
 
 - VS Code 重启时自动恢复开着的浏览器面板。
 
-## 环境要求
+## 安装
 
-无额外要求，[即装即用](https://marketplace.visualstudio.com/items?itemName=ayqy.browser)。
+[即装即用](https://marketplace.visualstudio.com/items?itemName=ayqy.browser)
 
-## Extension Settings
+## 使用
 
-无额外配置项，[即装即用](https://marketplace.visualstudio.com/items?itemName=ayqy.browser)。
+[输入命令](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) `Open Browser` 即可。
 
-## Known Issues
+## 反馈
 
 如遇任何问题，或有功能建议，都可以[通过 issue 反馈](https://github.com/ayqy/browser/issues)。
 
 另外，欢迎共同参与。
 
-## Release Notes
+## 版本
 
 ### 1.0.0
 

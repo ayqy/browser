@@ -1,4 +1,4 @@
-# Browser
+# EmbeddedBrowser
 
 An embedded browser for your VS Code.
 
@@ -30,13 +30,13 @@ Or this (Previewing local web page on the the other side):
 
 - Restore opening Browser Panel after VS Code restart.
 
-## Requirements
+## Installation
 
 No extra requirements, [install and enjoy now](https://marketplace.visualstudio.com/items?itemName=ayqy.browser).
 
-## Extension Settings
+## Usage
 
-No extra settings, [install and enjoy now](https://marketplace.visualstudio.com/items?itemName=ayqy.browser).
+Just type `Open Browser` at [Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette).
 
 ## Known Issues
 
