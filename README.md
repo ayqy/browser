@@ -10,15 +10,15 @@ Open a browser just inside your VS Code.
 
 Like this (Google searching on the other side):
 
-![coding-with-searching](https://github.com/ayqy/browser/blob/master/snapshots/coding-with-searching.jpg)
+![coding-with-searching](https://raw.githubusercontent.com/ayqy/browser/master/snapshots/coding-with-searching.jpg)
 
 Like this (Looking up API docs on the other side):
 
-![coding-with-API-docs](https://github.com/ayqy/browser/blob/master/snapshots/coding-with-API-docs.jpg)
+![coding-with-API-docs](https://raw.githubusercontent.com/ayqy/browser/master/snapshots/coding-with-API-docs.jpg)
 
 Or this (Previewing local web page on the the other side):
 
-![coding-with-preview](https://github.com/ayqy/browser/blob/master/snapshots/coding-with-preview.jpg)
+![coding-with-preview](https://raw.githubusercontent.com/ayqy/browser/master/snapshots/coding-with-preview.jpg)
 
 ### Full Feature List
 

@@ -8,15 +8,15 @@ VS Code 内嵌浏览器。
 
 比如，边写代码边 Google 搜索：
 
-![coding-with-searching](https://github.com/ayqy/browser/blob/master/snapshots/coding-with-searching.jpg)
+![coding-with-searching](https://raw.githubusercontent.com/ayqy/browser/master/snapshots/coding-with-searching.jpg)
 
 比如，边写代码边查 API 文档：
 
-![coding-with-API-docs](https://github.com/ayqy/browser/blob/master/snapshots/coding-with-API-docs.jpg)
+![coding-with-API-docs](https://raw.githubusercontent.com/ayqy/browser/master/snapshots/coding-with-API-docs.jpg)
 
 又比如，边写代码边预览本地效果：
 
-![coding-with-preview](https://github.com/ayqy/browser/blob/master/snapshots/coding-with-preview.jpg)
+![coding-with-preview](https://raw.githubusercontent.com/ayqy/browser/master/snapshots/coding-with-preview.jpg)
 
 ### 完整功能列表
 
