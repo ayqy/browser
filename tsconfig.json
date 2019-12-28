@@ -6,6 +6,8 @@
 		"lib": [
 			"es6"
 		],
+		"typeRoots": ["node_modules/@types"],
+    "types": ["node"],
 		"sourceMap": true,
 		"rootDir": "src",
 		"strict": true   /* enable all strict type-checking options */

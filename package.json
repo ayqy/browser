@@ -1,8 +1,9 @@
 {
 	"name": "browser",
 	"displayName": "browser",
-	"description": "An embedded browser for VS Code.",
+	"description": "An embedded browser for your VS Code.",
 	"version": "0.0.1",
+	"publisher": "ayqy",
 	"engines": {
 		"vscode": "^1.40.0"
 	},
@@ -10,14 +11,21 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onCommand:browser.open",
+		"onWebviewPanel:browser.webview"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
-		"commands": [{
-			"command": "extension.helloWorld",
-			"title": "Hello World"
-		}]
+		"commands": [
+			{
+				"command": "browser.open",
+				"title": "Open Browser"
+			},
+			{
+				"command": "browser.close",
+				"title": "Close Browser"
+			}
+		]
 	},
 	"scripts": {
 		"vscode:prepublish": "yarn run compile",
@@ -27,14 +35,20 @@
 		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {
+		"@types/content-type": "^1.1.3",
+		"@types/follow-redirects": "^1.8.0",
 		"@types/glob": "^7.1.1",
 		"@types/mocha": "^5.2.7",
 		"@types/node": "^12.11.7",
 		"@types/vscode": "^1.40.0",
 		"glob": "^7.1.5",
 		"mocha": "^6.2.2",
-		"typescript": "^3.6.4",
 		"tslint": "^5.20.0",
+		"typescript": "^3.6.4",
 		"vscode-test": "^1.2.2"
+	},
+	"dependencies": {
+		"content-type": "^1.0.4",
+		"follow-redirects": "^1.9.0"
 	}
 }
