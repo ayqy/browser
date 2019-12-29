@@ -2,7 +2,7 @@
 	"name": "browser",
 	"displayName": "EmbeddedBrowser",
 	"description": "An embedded browser for your VS Code.",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"homepage": "https://marketplace.visualstudio.com/items?itemName=ayqy.browser",
 	"repository": {
 		"type": "git",
