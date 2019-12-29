@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 import WebviewPanel from './WebviewPanel';
 import { start, stop } from './proxy';
-import stroage from './storage';
+import storage from './storage';
 
 export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(
@@ -30,7 +30,7 @@ export function activate(context: vscode.ExtensionContext) {
   }
 
   // Bind global storage context
-  stroage.bindContext(context);
+  storage.bindContext(context);
 
   // Start local proxy server
   start();
