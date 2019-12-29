@@ -38,6 +38,14 @@ No extra requirements, [install and enjoy now](https://marketplace.visualstudio.
 
 Just type `Open Browser` at [Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette).
 
+### All Commands
+
+- `Open Browser`: Open an embedded browser on the other side.
+
+- `Close Browser`: Close the embedded browser immediately.
+
+- `Clear Hisotry`: Clear local hisotry.
+
 ## Known Issues
 
 Feel free to [file an issue](https://github.com/ayqy/browser/issues), and contributions are very welcome.
@@ -46,4 +54,18 @@ Feel free to [file an issue](https://github.com/ayqy/browser/issues), and contri
 
 ### 1.0.0
 
-Initial release of Browser.
+- Initial release of Browser.
+
+#### 1.0.1
+
+- Rename to unique EmbeddedBrowser
+
+- Completing the usage docs.
+
+#### 1.1.0
+
+- Clear History command is available now.
+
+- Fix broken history.
+
+- Completing the commands docs.

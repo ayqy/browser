@@ -36,6 +36,14 @@ VS Code 内嵌浏览器。
 
 [输入命令](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) `Open Browser` 即可。
 
+### 命令
+
+- `Open Browser`: 在另一栏打开一个浏览器面板。
+
+- `Close Browser`: 关掉浏览器面板。
+
+- `Clear Hisotry`: 清空浏览历史。
+
 ## 反馈
 
 如遇任何问题，或有功能建议，都可以[通过 issue 反馈](https://github.com/ayqy/browser/issues)。
@@ -46,4 +54,18 @@ VS Code 内嵌浏览器。
 
 ### 1.0.0
 
-初版发布。
+- 初版发布
+
+#### 1.0.1
+
+- 改名为独一无二的 EmbeddedBrowser
+
+- 补充用法文档
+
+#### 1.1.0
+
+- 支持 Clear History
+
+- 修复不记录历史的问题
+
+- 补充命令文档
