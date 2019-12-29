@@ -28,6 +28,10 @@ const historyStack = {
   peek() {
     return this.stack[0];
   },
+  clear() {
+    this.stack = [];
+    executeCommand('storage.set', 'historyStack', this.stack);
+  },
   restore(stack = []) {
     if (Array.isArray(stack) && stack.length) {
       if (!this.stack.length) {
@@ -79,9 +83,8 @@ function onMessage() {
     console.log(event);
     const message = event.data;
     switch (message.action) {
-      case 'some action':
-        currentCount = Math.ceil(currentCount * 0.5);
-        counter.textContent = currentCount;
+      case 'clearHistory':
+        historyStack.clear();
         break;
       default:
         const id = message.id;

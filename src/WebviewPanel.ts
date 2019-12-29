@@ -54,6 +54,10 @@ export default class WebviewPanel {
     WebviewPanel.currentPanel = new WebviewPanel(panel, extensionPath);
   }
 
+  public static clearHistory() {
+    storage.set('historyStack', []);
+  }
+
   private constructor(panel: vscode.WebviewPanel, extensionPath: string) {
     this._panel = panel;
     this._extensionPath = extensionPath;
@@ -109,6 +113,13 @@ export default class WebviewPanel {
 
   public close() {
     this._panel.dispose();
+  }
+
+  public clearHistory() {
+    const webview = this._panel.webview;
+    webview.postMessage({
+      action: 'clearHistory'
+    });
   }
 
   public dispose() {

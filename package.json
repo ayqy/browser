@@ -38,6 +38,10 @@
 			{
 				"command": "browser.close",
 				"title": "Close Browser"
+			},
+			{
+				"command": "browser.clearHistory",
+				"title": "Clear Hisotry"
 			}
 		]
 	},

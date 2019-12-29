@@ -16,6 +16,16 @@ export function activate(context: vscode.ExtensionContext) {
       }
     })
   );
+  context.subscriptions.push(
+    vscode.commands.registerCommand('browser.clearHistory', () => {
+      if (WebviewPanel.currentPanel) {
+        WebviewPanel.currentPanel.clearHistory();
+      }
+      else {
+        WebviewPanel.clearHistory();
+      }
+    })
+  );
 
   if (vscode.window.registerWebviewPanelSerializer) {
     // Make sure we register a serializer in activation event
