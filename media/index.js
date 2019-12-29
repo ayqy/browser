@@ -14,7 +14,7 @@ const historyStack = {
     this.stack.unshift(url);
     // Update state
     vscode.setState({ historyStack: this.stack });
-    if (this.restored) {
+    if (this.isFullyRestored) {
       executeCommand('storage.set', 'historyStack', this.stack);
     }
   },
@@ -166,6 +166,7 @@ function restoreHistory() {
   console.log(state);
   historyStack.restore(state && state.historyStack);
   executeCommand('storage.get', 'historyStack', (stack) => {
+    historyStack.isFullyRestored = true;
     if (stack && stack.length) {
       const blank = !historyStack.stack.length;
       historyStack.restore(stack);
@@ -174,7 +175,6 @@ function restoreHistory() {
         loadUrl();
       }
     }
-    historyStack.isFullyRestored = true;
   });
 }
 
