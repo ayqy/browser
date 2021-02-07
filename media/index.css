@@ -12,6 +12,7 @@ input, textarea {
 html, body, .page {
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 .page {
   display: flex;
@@ -22,7 +23,18 @@ html, body, .page {
   box-sizing: border-box;
   padding: 5px 10px;
   background-color: #f8f8f8;
-  border-bottom: 1px solid #ccc;
+  border: 1px solid #ccc;
+  margin: -1px;
+  margin-bottom: 0;
+  transition: transform 0.3s, opacity 0.3s, margin-bottom 0.3s;
+  z-index: 3;
+}
+.header.folded {
+  margin-bottom: -41px;
+}
+.header.folded:not(:hover) {
+  transform: translateX(calc(100% - 15px));
+  opacity: 0.5;
 }
 .button {
   display: inline-block;
@@ -43,8 +55,13 @@ html, body, .page {
 .button:active {
   transform: scale(0.5);
 }
+#fold {
+  width: 10px;
+  margin-right: -10px;
+}
 #search {
   flex-grow: 1;
+  margin: 0;
 }
 .awesomplete {
   width: 100%;
@@ -65,4 +82,8 @@ html, body, .page {
 #iframe {
   flex-grow: 1;
   width: 100%;
+  transition: margin-top 0.3s, transform 0.3s;
+}
+.header.folded:hover + #iframe {
+  transform: translateY(41px);
 }
