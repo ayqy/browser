@@ -29,6 +29,11 @@ html, body, .page {
   transition: transform 0.3s, opacity 0.3s, margin-bottom 0.3s;
   z-index: 3;
 }
+@media (prefers-color-scheme: dark) {
+  .header {
+    background-color: #0000;
+  }
+}
 .header.folded {
   margin-bottom: -41px;
 }
@@ -55,6 +60,14 @@ html, body, .page {
 .button:active {
   transform: scale(0.5);
 }
+.button svg{
+  fill: #333;
+}
+@media (prefers-color-scheme: dark) {
+  .button svg {
+    fill: #ccc;
+  }
+}
 #fold {
   width: 10px;
   margin-right: -10px;
@@ -78,6 +91,13 @@ html, body, .page {
   outline: none;
   color: #333;
   text-indent: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  #address {
+    background-color: #0000;
+    border-color: #999;
+    color: #ddd;
+  }
 }
 #iframe {
   flex-grow: 1;
