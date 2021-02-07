@@ -133,6 +133,9 @@ function addListeners() {
   $('#refresh').addEventListener('click', () => {
     loadUrl();
   });
+  $('#fold').addEventListener('click', () => {
+    $('.header').classList.toggle('folded');
+  });
 }
 
 /**

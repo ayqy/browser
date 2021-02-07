@@ -29,7 +29,8 @@ export default function(resourceRoot: string, proxyUrl = '') {
         </div>
         <form id="search">
           <input id="address" name="address" />
-        <form>
+        </form>
+        <div id="fold"></div>
       </div>
       <iframe id="iframe" frameborder="no" border="0" marginwidth="0" marginheight="0" allowtransparency="yes"></iframe>
     </div>
