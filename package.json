@@ -67,6 +67,6 @@
 	},
 	"dependencies": {
 		"content-type": "^1.0.4",
-		"follow-redirects": "^1.9.0"
+		"follow-redirects": "^1.14.7"
 	}
 }
